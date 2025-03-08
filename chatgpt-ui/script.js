@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Login Form Handling
+    
     const loginForm = document.getElementById("loginForm");
     if (loginForm) {
         loginForm.addEventListener("submit", function (event) {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Chat Handling
+   
     const chatBox = document.getElementById("chatBox");
     const messageInput = document.getElementById("messageInput");
     const sendBtn = document.getElementById("sendBtn");
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         loadChatHistory();
     }
 
-    // Logout Function
+    
     const logoutBtn = document.getElementById("logoutBtn");
     if (logoutBtn) {
         logoutBtn.addEventListener("click", function () {

@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-/* Login Page */
+
 .login-container {
     background: white;
     padding: 20px;
@@ -46,7 +46,7 @@ button:hover {
     background: #006edc;
 }
 
-/* Chat Page */
+
 .chat-container {
     width: 400px;
     max-width: 100%;
